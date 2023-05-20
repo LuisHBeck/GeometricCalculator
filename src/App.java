@@ -157,7 +157,6 @@ public class App {
                                 SquareBasePyramid pyramid = new SquareBasePyramid(pyramidSide, pyramidHeight, pyramidFaceHeight);
                                 System.out.println(pyramid.toString());
                         } 
-                        
             }
         }
     }
