@@ -17,5 +17,10 @@ public class Cilinder extends SpaceFigures{
     public double calculateSurfaceArea() {
         return 2*PI*ray*height + 2*PI*(ray*ray);
     }
-    
+
+    @Override
+    public String toString() {
+        return "Volume = "+ calculateVolume() + "\n" +
+        "Surface Area = "+ calculateSurfaceArea() + "\n";
+    } 
 }

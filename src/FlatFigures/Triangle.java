@@ -15,4 +15,11 @@ public class Triangle extends FlatFigures{
     public double calculatePerimeter() {
         return side*3;
     }
+
+    @Override
+    public String toString() {
+        return "Area = "+ calculateArea() + "\n" +
+        "Perimeter =" + calculatePerimeter() + "\n";
+    }
 }
+

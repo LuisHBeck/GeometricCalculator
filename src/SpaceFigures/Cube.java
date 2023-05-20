@@ -15,4 +15,10 @@ public class Cube extends SpaceFigures{
     public double calculateSurfaceArea() {
         return 6*side*side;
     }
+
+    @Override
+    public String toString() {
+        return "Volume = "+ calculateVolume() + "\n" +
+        "Surface Area = "+ calculateSurfaceArea() + "\n";
+    } 
 }

@@ -15,4 +15,10 @@ public class Hexagon extends FlatFigures {
     public double calculatePerimeter() {
         return side*6;
     }
+
+    @Override
+    public String toString() {
+        return "Area = "+ calculateArea() + "\n" +
+        "Perimeter =" + calculatePerimeter() + "\n";
+    }
 }

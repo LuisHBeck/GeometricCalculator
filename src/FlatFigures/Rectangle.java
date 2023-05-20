@@ -16,4 +16,10 @@ public class Rectangle extends FlatFigures{
     public double calculatePerimeter() {
         return base*2+height*2;
     }
+
+    @Override
+    public String toString() {
+        return "Area = "+ calculateArea() + "\n" +
+        "Perimeter =" + calculatePerimeter() + "\n";
+    }
 }

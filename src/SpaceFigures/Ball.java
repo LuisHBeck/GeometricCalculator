@@ -16,5 +16,10 @@ public class Ball extends SpaceFigures{
     public double calculateSurfaceArea() {
         return 4 * PI * (ray * ray);
     }
-    
+
+    @Override
+    public String toString() {
+        return "Volume = "+ calculateVolume() + "\n" +
+        "Surface Area = "+ calculateSurfaceArea() + "\n";
+    } 
 }

@@ -17,4 +17,10 @@ public class Parallelepiped extends SpaceFigures{
     public double calculateSurfaceArea() {
         return 2*(weight*height + weight*depth + height*depth);
     }
+
+    @Override
+    public String toString() {
+        return "Volume = "+ calculateVolume() + "\n" +
+        "Surface Area = "+ calculateSurfaceArea() + "\n";
+    } 
 }

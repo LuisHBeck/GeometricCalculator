@@ -15,4 +15,11 @@ public class Square extends FlatFigures{
     public double calculatePerimeter() {
         return side * 4;
     }
+
+    @Override
+    public String toString() {
+        return "Area = "+ calculateArea() + "\n" +
+        "Perimeter =" + calculatePerimeter() + "\n";
+    }
+
 }
