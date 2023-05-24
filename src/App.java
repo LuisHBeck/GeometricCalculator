@@ -22,6 +22,7 @@ public class App {
                 System.out.println("CHOOSE THE FIGURE TYPE: ");
                 System.out.println("[1] - Flat Fifures");
                 System.out.println("[2] - Space Fifures");
+                System.out.println("[3] - EXIT");
                 figureType = tec.nextInt();
                 tec.nextLine();
                 System.out.println();
@@ -156,7 +157,13 @@ public class App {
                                 tec.nextLine();
                                 SquareBasePyramid pyramid = new SquareBasePyramid(pyramidSide, pyramidHeight, pyramidFaceHeight);
                                 System.out.println(pyramid.toString());
-                        } 
+                        }
+                    case 3:
+                        System.out.println("Thanks buddy!!");
+                        break;        
+            }
+            if (figureType == 3){
+                break;
             }
         }
     }
